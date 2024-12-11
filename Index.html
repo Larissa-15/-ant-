@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <title>îanté </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <img src="./Logo/Îandé.png">
+
+    <button class="cta-button">Dicas de Cultivo</button>
+    <button class="cta-button">Histórias e Curiosidades</button>
+    <button class="cta-button">Decoração</button>
+    <button class="cta-button">Sobre îanté</button>
+
+
+    <div>
+      <form action="#">
+        <!-- <label for="fname">Procurar</label><br> -->
+        <input type="text" id="fname" name="fname" value="Procurar" class="buscar"><i
+          class="fa-solid fa-magnifying-glass"></i><br>
+      </form>
+    </div>
+
+    <!--<ul type="square">    COLOQUEI AQUI PQ NÃO SEI SE TA CERTO 
+            <li><a href="#dicas de cultivo">Dicas de Cultivo</a></li>
+            <li><a href="#historias e curiosidades">Histórias e Curiosidades</a></li>
+            <li><a href="#decoracao">Decoração</a></li>
+            <li><a href="#sobre nos">Sobre Nós</a></li>
+        </ul>-->
+  </nav>
+
+
+
+  <section>
+    <!-- peguei nesse site -> https://www.marciocunha.eti.br/como-criar-um-carrosel-de-imagens-em-html5/#google_vignette -->
+
+    <div class="carousel">
+      <input type="radio" class="radio" name="carousel" id="slide1" checked>
+      <input type="radio" class="radio" name="carousel" id="slide2">
+      <input type="radio" class="radio" name="carousel" id="slide3">
+      <div class="slides">
+        <div class="slide">
+          <!-- <p>cuidados com o anturio</p> -->
+          <img src="Plantinhas/dicas de cultivo.png" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="Plantinhas/curiosidade.png" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="Plantinhas/descoração.png" alt="Slide 3">
+        </div>
+      </div>
+      <div class="navigation">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+
+  </section>
+  <!-- <button type="button">Saiba mais</button> -->
+
+
+  <section>
+
+    <div class="dicas-container">
+      <h2>Dicas de Cultivo</h2>
+
+      <!--Materia principal-->
+      <div class="linha1">
+        <div class="amarelo dicas">
+
+          <img src="./Plantinhas/Dicas de cultivo/Abiu Amarelo.png">
+          <h3>Como cuidar da deliciosa abiu amarelo?</h3>
+          <h4>É recomendável regar a planta regularmente, mantendo o substrato levemente úmido, especialmente durante
+            períodos secos ou de estiagem. No entanto, é importante evitar ...</h4>
+
+
+          <!--https://centraldasplantas.com.br/produtos/abiu-amarelo/-->
+        </div>
+
+        <div class="Ficus dicas">
+
+          <img src="./Plantinhas/Dicas de cultivo/Ficus.jpeg">
+          <h3>Envasamento da Ficus lyrata</h3>
+          <h4>A Ficus lyrata é uma planta que está em alta na decoração. Ela tem as folhas semelhantes a uma couve, e é
+            uma
+            das maiores árvores do mundo, plantada em vaso. Com sua origem africana, é.....</h4>
+
+          <!--https://centraldasplantas.com.br/ficus-lyrata/-->
+        </div>
+      </div>
+
+      <!-- Apartir daqui, as materias tem imagens pequenas-->
+      <div class="linha2">
+        <div class="Abacate dicas">
+
+          <img src="./Plantinhas/Dicas de cultivo/Abacate.jpeg">
+          <h3>Como cuidar de um abacateiro?</h3>
+          <h4>O abacateiro é uma planta que aprecia o calor e que deve ser cultivada a pleno sol, no entanto existem
+            espécies de abacateiros que conseguem se adaptar a</h4>
+
+          <!--https://centraldasplantas.com.br/produtos/abacate/-->
+        </div>
+
+        <div class="Milagre dicas">
+
+          <img src="./Plantinhas/Dicas de cultivo/Muda de Fruta do Milagre.jpeg">
+          <h3>Tudo sobre a Fruta do Milagre</h3>
+          <h4>Imagine você consumir uma fruta de polpa ácida como um Limão, um Camu-Camu ou então um Cambuci e sentir
+            que
+            o
+            sabor dessas frutas na verdade é adocicado e sem nenhuma acidez. </h4>
+
+          <!--https://centraldasplantas.com.br/tudo-sobre-a-fruta-do-milagre/-->
+        </div>
+
+        <div class="Iris Azul dicas">
+
+          <img src="./Plantinhas/Dicas de cultivo/iris azul.jpeg">
+          <h3>Como plantar íris: passo a passo</h3>
+          <h4>Os amantes de flores amam ter essa espécie enfeitando o jardim e é por isso que vamos explicar neste
+            artigo
+            como plantar íris e quais os cuidados necessários para que se</h4>
+
+          <!--https://blog.plantei.com.br/como-cultivar-iris/-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="decora">
+
+    <div class="decor">
+
+      <h2>Decoração</h2>
+      <div class="linha3">
+        <div class="decoração decor">
+          <!--Materia principal-->
+
+          <img src="./Plantinhas/Decoração/plantas-no-quarto.jpeg">
+          <h3>Quarto com plantas: Conheça 7 espécies e saiba como decorar com elas</h3>
+          <h4>Versáteis, coloridas e de fácil cuidado, flores e folhagens incrementam décor sem pesarem no bolso</h4>
+        </div>
+        <!--https://blog.archtrends.com/sala-com-plantas-especies/-->
+      </div>
+    </div>
+
+
+    <!-- Apartir daqui, as materias tem imagens pequenas-->
+
+
+    <div class="linha4">
+      <div class="home decor">
+        <img src="./Plantinhas/Decoração/mulher-trabalhando-na-sala-com-plantas.jpeg">
+        <h3>Home office tranquilo e verde</h3>
+        <h4>Se você pensar em transformar sua varanda em um home office as plantas também são bem vindas, porém, elas
+          não
+          podem ser em excesso, pois isso pode tirar sua atenção na hora do trabalho.</h4>
+
+        <!--thttps://www.vivadecora.com.br/revista/plantas-para-varanda/-->
+      </div>
+
+      <div class="mágica decor">
+
+        <img src="./Plantinhas/Decoração/mágica.jpeg">
+        <h3>A poção mágica para um Halloween criativo e sustentável</h3>
+        <h4>Imagina comprar decorações descartáveis quando podes criar e enfeitar a tua casa de uma forma única! Parece
+          difícil? Longe disso.</h4>
+
+        <!--https://biomaplants.com/pt/blog/2024-10-18/251-a-pocao-magica-para-um-halloween-criativo-e-sustentavel-->
+      </div>
+
+
+      <div class="varanda decor">
+
+        <img src="./Plantinhas/Decoração/varanda.jpeg">
+        <h3>Plantas para Varanda com sol, listamos algumas dicas.</h3>
+        <h4>A varanda com certeza é o espaço da casa que mais usamos plantas na decoração. Seja uma varanda pequena de
+          apartamento ou mesmo uma ampla...</h4>
+
+        <!--https://centraldasplantas.com.br/plantas-para-varanda-com-sol/-->
+      </div>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="historias">
+
+      <h2>Histórias e Curiosidades</h2>
+
+      <div class="linha5">
+        <div class="historias curiosa">
+
+          <img src="./Plantinhas/Decoração/plantas-e-gatos.jpeg">
+          <h3>Pets e plantas: cuidados necessários para uma convivência harmônica</h3>
+          <h4>Especialistas ensinam como conciliar um lar com plantas e animais. Aprenda como evitar acidentes que podem
+            ser
+            fatais para alguns bichos</h4>
+
+
+          <!--https://www.correiobraziliense.com.br/revista-do-correio/2021/01/4903497-pets-e-plantas-cuidados-necessarios-para-uma-convivencia-harmonica.html-->
+        </div>
+      </div>
+    </div>
+
+    <!-- Apartir daqui, as materias tem imagens pequenas-->
+
+    <div class="linha6">
+      <div class="calcada curiosa">
+
+        <img src="./Plantinhas/Curiosidades/Ipê.jpeg">
+        <h3>25 árvores para plantar sem destruir a calçada e rede elétrica</h3>
+        <h4>As árvores são especiais e fundamentais nas ruas e avenidas, pois, além da beleza, possuem um
+          importantíssimo
+          papel no equilíbrio térmico!</h4>
+
+        <!--https://blog.plantei.com.br/25-arvores-que-voce-pode-plantar-sem-medo-de-destruir-sua-calcada-e-a-rede-eletrica/-->
+      </div>
+
+      <div class="suspenso curiosa">
+
+        <img src="./Plantinhas/Curiosidades/jardim suspensos.png">
+        <h3>Cingapura tem árvores gigantes com jardins suspensos!</h3>
+        <h4>O parque Gardens By The Bay é um imenso complexo que abriga duas centenas de espécies de plantas de uma
+          maneira nada comum. Há um jardim coberto de 1.300m², lagos, pavilhões</h4>
+
+        <!--https://www.primistili.com.br/cingapura-tem-arvores-gigantes-com-jardins-suspensos-->
+      </div>
+
+      <div class="segredos curiosa">
+
+        <img src="./Plantinhas/Curiosidades/rosas do deserto.jpeg">
+        <h3>8 segredos no cultivo de rosas do deserto</h3>
+        <h4>Vira e mexe publicamos aqui algum conteúdo sobre as rosas do deserto. É que essas plantas são tão especiais
+          e surpreendentes, que sempre há coisas novas que podemos falar sobre elas.</h4>
+
+        <!--https://blog.plantei.com.br/8-segredos-no-cultivo-de-rosas-do-deserto/-->
+      </div>
+    </div>
+  </section>
+
+  <section class="indi">
+    <div class="Indicacoes">
+      <h2>Indicações</h2>
+      <div class="linha7">
+
+        <div class="dicas">
+
+          <h3>Dicas de Cultivo</h3>
+          
+          <div class="dicas"></div>
+
+          <!--Materia principal-->
+          <img src="./Plantinhas/Dicas de cultivo/Abiu Amarelo.png">
+          <h4>Como cuidar da deliciosa abiu amarelo?</h4>
+          <h5>É recomendável regar a planta regularmente, mantendo o substrato levemente úmido, especialmente durante
+            períodos secos ou de estiagem. No entanto, é importante evitar ...</h5>
+
+
+          <!--https://centraldasplantas.com.br/produtos/abiu-amarelo/-->
+        </div>
+
+        <div class="decoracao">
+          <h3>Decoração</h3>
+          <div class="decoracao-decor">
+
+            <!--Materia principal-->
+
+            <img src="./Plantinhas/Decoração/plantas-no-quarto.jpeg">
+            <h4>Quarto com plantas: Conheça 7 espécies e saiba como decorar com elas</h4>
+            <h5>Versáteis, coloridas e de fácil cuidado, flores e folhagens incrementam décor sem pesarem no bolso</h5>
+
+            <!--https://blog.archtrends.com/sala-com-plantas-especies/-->
+          </div>
+        </div>
+
+        <div class="historias">
+
+          <h3>Histórias e Curiosidades</h3>
+
+          <div class="historias curiosa">
+
+            <img src="./Plantinhas/Decoração/plantas-e-gatos.jpeg">
+            <h4>Pets e plantas: cuidados necessários para uma convivência harmônica</h4>
+            <h5>Especialistas ensinam como conciliar um lar com plantas e animais. Aprenda como evitar acidentes que
+              podemser fatais para alguns bichos</h5>
+
+            <!--https://www.correiobraziliense.com.br/revista-do-correio/2021/01/4903497-pets-e-plantas-cuidados-necessarios-para-uma-convivencia-harmonica.html-->
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="sobre">
+
+    <div class="linha10">
+
+      <h2>Sobre Îanté</h2>
+      <img src="./Logo/Eu.png">
+      <h3>O Nascimento de Îanté: Uma Paixão que se Transformou em Projeto</h3>
+      <p>Um dia, durante a aula, enquanto discutíamos as possibilidades para nosso Projeto Integrador, uma ideia começou
+        a germinar, assim como as plantas que eu tanto amo. Conhecida entre amigos e familiares como a "louca das
+        plantas", minha paixão por botânica sempre foi um dos pilares da minha vida. Passar horas mexendo na terra,
+        fazendo mudas e asistindo ao crescimento das plantas é algo que me traz uma alegria indescritível. As cores
+        vibrantes, as texturas fascinantes e os aromas inebriantes que elas oferecem são uma fonte constante de
+        inspiração.</p>
+      <!-- Um dia, durante a aula, enquanto discutíamos as possibilidades para nosso Projeto Integrador, uma ideia começou a germinar, assim como as plantas que eu tanto amo. Conhecida entre amigos e familiares como a "louca das plantas", minha paixão por botânica sempre foi um dos pilares da minha vida. Passar horas mexendo na terra, fazendo mudas e asistindo ao crescimento das plantas é algo que me traz uma alegria indescritível. As cores vibrantes, as texturas fascinantes e os aromas inebriantes que elas oferecem são uma fonte constante de inspiração. Enquanto falávamos sobre os diversos temas que poderiam ser explorados no nosso projeto, uma visão começou a tomar forma: criar algo que celebrasse essa conexão especial que temos com a natureza. E assim, Îanté nasceu. O nome, que remete à simbiose entre a vida e o meio ambiente, encapsula perfeitamente o que eu desejava expressar através desse projeto.
+       Nosso objetivo era mais do que apenas um trabalho acadêmico. Queríamos compartilhar com os outros a magia do cultivo, o prazer de ver uma muda crescer e a satisfação de colher os frutos desse trabalho. Cada flor que brota e cada fruto que amadurece representam não apenas o resultado de cuidados, mas a realização de um sonho e a beleza da vida em sua forma mais pura.A partir dessa paixão, começamos a planejar workshops e atividades que pudessem envolver a comunidade, promovendo a educação ambiental e incentivando o cultivo de plantas em espaços urbanos. Assim, Îanté se transformou em um projeto que não apenas reflete o meu amor pelas plantas, mas que também busca inspirar outros a se reconectarem com a natureza e a descobrirem a alegria do cultivo.
+      A cada dia, o projeto cresce e se transforma, assim como nossas plantas. A jornada do Îanté é uma celebração da vida, da natureza e, acima de tudo, da força que vem da nossa paixão. E mesmo que eu nunca tenha imaginado que essa "loucura" por plantas pudesse se tornar um projeto, agora vejo que, no final das contas, a vida é feita dessas pequenas sementes de amor que podemos plantar todos os dias.
+      -->
+    </div>
+  </section>
+
+  <section>
+    <h3>Receba novidades e dicas de cuidados com suas plantas</h3>
+    <div class="linha8">
+      <div>
+        <form action="/action_page.php">
+          <label for="fname">Insira seu e-mail</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="linha9">
+    <section class="direitos">
+      <img src="./Logo/1x/logo branca.png">
+
+      <ul type="square">
+        <li><a href="#dicas de cultivo">Dicas de Cultivo</a></li>
+        <li><a href="#historias e curiosidades">Histórias e Curiosidades</a></li>
+        <li><a href="#decoracao">Decoração</a></li>
+        <li><a href="#sobre nos">Sobre Nós</a></li>
+
+      </ul>
+      <div>
+
+      </div>
+      
+    </section>
+
+    <div>
+      <h4>Copyright © 2024 Larissa de Almeida Biscaro </h4>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
